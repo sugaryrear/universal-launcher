@@ -104,7 +104,7 @@ public class Main {
                                 readBytes = readBytes + pos;
                           //      System.out.println(readBytes+" and "+contentLength);
                                 SwingUtilities.invokeLater(() -> {
-                                    progress.setString("Downloading client - " + String.format("%.2f", ((double) readBytes / Config.SIZE_OF_FILE) * 100) + "%");
+                                    progress.setString("Downloading client - " + String.format("%.2f", ((double) readBytes / contentLength) * 100) + "%");
                                     progress.setValue((int) readBytes);
                                 });
                                 bout.write(data, 0, pos);
