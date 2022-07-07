@@ -7,16 +7,16 @@ public class Config {
      * The name that appears on the task bar
      */
     public static final String NAME = "Universal Launcher";
-public static long SIZE_OF_FILE  = 73_046_000;//the size of file
+
     /*
      * Connection address of where to obtain the jar
      */
-    public static final String URL = "https://www.dropbox.com/s/b18kxm1cq5rbka2/RighteousPK.jar?dl=1";
+    public static final String URL = "DROPBOXURL";
 
     /*
      * The name of the jar to launch once downloaded
      */
-    public static final String FILE_NAME = "RighteousPK.jar";
+    public static final String FILE_NAME = "JAFILE.jar";
 
     /*
      * The path to save the jar once it's downloaded.
